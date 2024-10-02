@@ -198,6 +198,99 @@ header .navbar a:hover{
    padding:1rem 0;
    color:#666;
  }
+
+ /* Style for the radio buttons and labels */
+.radio-group {
+   display: flex;
+   align-items: center;
+   margin-bottom: 1rem;
+ }
+ 
+ .radio-container {
+   display: flex;
+   gap: 2rem; /* Space between radio buttons */
+   align-items: center;
+ }
+ 
+ .radio-container input[type="radio"] {
+   accent-color: #666; /* Radio button color */
+   width: 1.2rem;
+   height: 1.2rem;
+   margin-right: 0.5rem;
+   cursor: pointer;
+ }
+ 
+ .radio-container label {
+   font-size: 1.7rem;
+   color: #333;
+   cursor: pointer;
+   text-transform: none;
+ }
+ 
+ /* Align the radio buttons and labels with the rest of the input fields */
+ .book .row form .inputBox h3 {
+   font-size: 2rem;
+   padding: 1rem 0;
+   color: #666;
+ }
+ 
+ /* General input field styling */
+ .book .row form .inputBox input {
+   width: 100%;
+   padding: 1rem;
+   border: 0.1rem solid rgba(0, 0, 0, 0.1);
+   font-size: 1.7rem;
+   color: #333;
+   text-transform: none;
+   margin-bottom: 1rem;
+ }
+ 
+ /* Styling for the submit button */
+ .book .row form .btn {
+   background-color: #007BFF;
+   color: white;
+   padding: 1rem 2rem;
+   border: none;
+   cursor: pointer;
+   font-size: 1.7rem;
+   text-transform: uppercase;
+ }
+ 
+ .book .row form .btn:hover {
+   background-color: #0056b3;
+ }
+
+ /* Card section styling */
+.card-section {
+   margin-top: 2rem;
+ }
+ 
+ .card {
+   background-color: #fff;
+   border-radius: 10px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 20px;
+   margin-bottom: 1.5rem;
+   width: 100%;
+   text-align: center;
+   transition: 0.3s;
+ }
+ 
+ .card-content h3 {
+   font-size: 2rem;
+   color: #333;
+   margin-bottom: 10px;
+ }
+ 
+ .card-content p {
+   font-size: 1.2rem;
+   color: #666;
+ }
+ 
+ .card:hover {
+   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+ }
+ 
 /* book section ends */
 
 /*gallery section*/
