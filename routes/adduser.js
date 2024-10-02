@@ -11,6 +11,6 @@ router.get("/", (req, res) => {
                         res.render("project", { msg: true });
                     }
                 });
-            });
+});
 
 module.exports=router;

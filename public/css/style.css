@@ -290,6 +290,91 @@ header .navbar a:hover{
  .card:hover {
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
  }
+
+ .booking-section {
+   flex: 2;
+   background-color: #fff;
+   padding: 20px;
+   border-radius: 8px;
+}
+
+h2 {
+   font-size: 1.5em;
+   margin-bottom: 15px;
+}
+
+.booking-form {
+   display: flex;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+
+.input-field {
+   flex: 1;
+   padding: 10px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+}
+
+.btn {
+   background-color: #6c43f2;
+   color: #fff;
+   border: none;
+   padding: 10px 15px;
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+.btn:hover {
+   background-color: #5b3ddf;
+}
+
+.flight-option {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 10px 0;
+   border-bottom: 1px solid #ccc;
+}
+
+.flight-info {
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+
+.flight-time, .flight-arrival {
+   font-size: 0.9em;
+}
+
+.flight-details img {
+   height: 40px;
+   width: auto;
+}
+
+.flight-price {
+   text-align: center;
+}
+
+.sidebar {
+   flex: 1;
+   margin-left: 20px;
+}
+
+.option {
+   background-color: #fff;
+   padding: 15px;
+   border-radius: 8px;
+   margin-bottom: 20px;
+   text-align: center;
+}
+
+.option img {
+   width: 100%;
+   border-radius: 8px;
+   margin-bottom: 10px;
+}
+
  
 /* book section ends */
 
