@@ -139,7 +139,11 @@ header .navbar a:hover{
    text-transform:capitalize;
    text-decoration:none;
    display:inline-block;
+<<<<<<< HEAD
    background-color: white;
+=======
+   background-color: transparent;
+>>>>>>> 357b88cbc2cdf7c84a1f30ffac10e4502a161cc3
    color:black;
    font-size:25px;
    border:2px solid black;
@@ -199,8 +203,12 @@ header .navbar a:hover{
    color:#666;
  }
 
+<<<<<<< HEAD
 
   /* Style for the radio buttons and labels */
+=======
+ /* Style for the radio buttons and labels */
+>>>>>>> 357b88cbc2cdf7c84a1f30ffac10e4502a161cc3
 .radio-group {
    display: flex;
    align-items: center;
@@ -234,6 +242,10 @@ header .navbar a:hover{
    padding: 1rem 0;
    color: #666;
  }
+<<<<<<< HEAD
+=======
+ 
+>>>>>>> 357b88cbc2cdf7c84a1f30ffac10e4502a161cc3
  /* General input field styling */
  .book .row form .inputBox input {
    width: 100%;
@@ -290,6 +302,7 @@ header .navbar a:hover{
  .card:hover {
    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
  }
+<<<<<<< HEAD
 
  .booking-section {
    flex: 2;
@@ -375,6 +388,8 @@ h2 {
    margin-bottom: 10px;
 }
 
+=======
+>>>>>>> 357b88cbc2cdf7c84a1f30ffac10e4502a161cc3
  
 /* book section ends */
 
