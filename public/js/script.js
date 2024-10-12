@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 let menu=document.querySelector('#menu-bar');
 let navbar=document.querySelector('.navbar');
 
@@ -10,10 +10,9 @@ window.onscroll=()=>{
 menu.addEventListener('click',()=>{
     menu.classList.remove('fa-times');
     navbar.classList.remove('active');
-=======
 let menu = document.querySelector("#menu-bar");
 let navbar = document.querySelector(".navbar");
-
+})
 window.onscroll = () => {
   menu.classList.remove("fa-times");
   navbar.classList.remove("active");
@@ -43,5 +42,4 @@ bookFlightRadio.addEventListener("change", function () {
     hotelCards.style.display = "none"; // Hide hotel cards
     flightCards.style.display = "block"; // Show flight cards
   }
->>>>>>> 357b88cbc2cdf7c84a1f30ffac10e4502a161cc3
 });
